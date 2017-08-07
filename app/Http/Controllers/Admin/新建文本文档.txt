@@ -1,0 +1,59 @@
+//czh  
+        /////////////
+        //服务器管理 //
+        ////////////
+        Permission::create([
+            'name' => '服务器管理',
+            'slug' => 'system.servers',
+            'description' => '服务器管理'
+        ]);
+        /**
+         * 显示服务器列表
+         */
+        Permission::create([
+            'name' => '显示服务器列表',
+            'slug' => 'servers.list',
+            'description' => '显示服务器列表'
+        ]);
+        /**
+         * 创建服务器
+         */
+        Permission::create([
+            'name' => '创建服务器',
+            'slug' => 'servers.create',
+            'description' => '创建服务器'
+        ]);
+        /**
+         * 删除服务器
+         */
+        Permission::create([
+            'name' => '删除服务器',
+            'slug' => 'servers.destroy',
+            'description' => '删除服务器'
+        ]);
+        /**
+         * 修改服务器
+         */
+        Permission::create([
+            'name' => '修改服务器',
+            'slug' => 'servers.edit',
+            'description' => '修改服务器'
+        ]);
+
+
+        /////////////
+        //微信玩家管理 //
+        ////////////
+        Permission::create([
+            'name' => '微信玩家管理',
+            'slug' => 'system.wxuser',
+            'description' => '微信玩家管理'
+        ]);
+        /**
+         * 显示服务器列表
+         */
+        Permission::create([
+            'name' => '显示微信玩家列表',
+            'slug' => 'wxuser.list',
+            'description' => '显示微信玩家列表'
+        ]);
